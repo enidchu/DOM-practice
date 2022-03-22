@@ -1,0 +1,76 @@
+.header{
+    background-color: #f7cfb1;;
+    color: #2d3144;
+    padding: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+}
+.aside{
+    height: 100vh;
+    flex: 0 0 30%;
+}
+.navigation{
+    margin: 40px 0;
+}
+.navigation__list {
+    text-align: center;
+}
+.navigation__list-item {
+    margin: 10px 30px;
+    padding: 10px 0;
+    transition: 0.3s ease-in;
+    transform: scale(1);
+}
+
+.navigation__list-item:hover {
+    transform: scale(1.2);
+}
+.navigation__list-link {
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-text-stroke: 0.8px #38864f;
+    -webkit-text-fill-color: #38864f;
+}
+
+.navigation__list-item.active {
+    transform: scale(1.2);
+}
+
+.navigation__list-item.active .navigation__list-link {
+    -webkit-text-stroke: 0.8px #73c28a;
+    -webkit-text-fill-color: #73c28a;
+}
+.main {
+    flex: 1 1 70%;
+    content: '';
+    background-image: url(../image/plant.png);
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-size: 50%;
+}
+.container {
+    max-width: 90%;
+    margin: 10vh auto;
+    padding: 30px;
+    border-radius: 30px;
+}  
+.content {
+    padding: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #c97461;
+    font-weight: 800;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.title-content {
+    font-size: 28px;
+    font-weight: 900;
+    -webkit-text-stroke: 0.8px #c28042;
+    -webkit-text-fill-color: #c28042;
+    margin: 0 0 30px;
+    letter-spacing: 0.5px;
+}
